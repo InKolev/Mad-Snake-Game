@@ -1,0 +1,59 @@
+#background {
+    /*Viewport-percentage lengths - vh(viewport height), vw(viewport width), vmin(viewport minimum length), vmax(viewport maximum length)*/
+    position: relative;
+    height: 97.5vh;
+    width: 97.5vw;
+    background-image: url("./sources/bamboo-forest.jpg");
+    border: solid black 3px;
+}
+
+#title {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #ff4800;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Papyrus';
+}
+
+#score {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /*color: #f4f72e;*/
+    color: #fff200;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Papyrus';
+}
+
+#canvas {
+    background-color: #143805;
+    border: solid black 2px;
+}
+
+#start-button {
+    background: transparent;
+    color: #fff200;
+    width: 340px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Papyrus';
+}
+
+#pause-button {
+    background: transparent;
+    width: 340px;
+    color: #fff200;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Papyrus';
+}
+
+#reset-button {
+    background: transparent;
+    width: 340px;
+    color: #fff200;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Papyrus';
+}

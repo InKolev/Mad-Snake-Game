@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Rumble in the jungle</title>
+</head>
+<body>
+    <div id="background">
+        <p id="title">
+            <strong>
+               Mad Snake
+            </strong>
+        </p>
+
+        <input onclick="startNewGame()" id="start-button" type="button" value="Start New Game">
+        <input onclick="pauseGame()" id="pause-button" type="button" value="Pause Game">
+        <input onclick="resetGame()" id="reset-button" type="button" value="Reset Game">
+
+        <div id="workspace">
+            <canvas id="canvas" width="700" height="500">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+        </div>
+
+        <p>
+            <strong id="score"></strong>
+        </p>
+    </div>
+    <script src="snake-controls.js"></script>
+</body>
+</html>
