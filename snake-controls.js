@@ -121,6 +121,7 @@ window.onkeyup = function(e) {
             else {
                 pauseGame();
             }
+            break;
         }
     }
 };
