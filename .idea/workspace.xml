@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="216d99af-b5a3-4ff9-ac75-36aea466951e" name="Default" comment="" />
+    <list default="true" id="216d99af-b5a3-4ff9-ac75-36aea466951e" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\GitHub-Repos\Mad-Snake\Mad-Snake-Game\sources\mad-snake.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Snake-In-Browser.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +28,8 @@
       <file leaf-file-name="snake-controls.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/snake-controls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5368421">
-              <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.23859648">
+              <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#runSnake#0" expanded="false" />
                 <element signature="n#!!block;n#spawnSnake#0" expanded="false" />
@@ -41,16 +45,6 @@
                 <element signature="n#!!block;n#resetGame#0" expanded="false" />
                 <element signature="n#!!block;n#getRandomCoordinate#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mad-snake.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/mad-snake.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0">
-              <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +80,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -95,8 +92,8 @@
         <option value="$PROJECT_DIR$/snake.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles.css" />
-        <option value="$PROJECT_DIR$/sources/mad-snake.html" />
         <option value="$PROJECT_DIR$/snake-controls.js" />
+        <option value="$PROJECT_DIR$/sources/mad-snake.html" />
       </list>
     </option>
   </component>
@@ -113,7 +110,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -407,18 +404,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/mad-snake.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0">
-          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/snake-controls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5368421">
-          <caret line="123" column="18" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.23859648">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#runSnake#0" expanded="false" />
             <element signature="n#!!block;n#spawnSnake#0" expanded="false" />
