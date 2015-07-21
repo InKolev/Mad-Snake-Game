@@ -21,6 +21,7 @@
                 left,
                 right,
                 keyPressed,
+                pauseKey,
                 keyUp,
                 keyDown,
                 keyLeft,
@@ -120,6 +121,14 @@
                     }
                     break;
                 }
+                case pauseKey: {
+                    if(gameIsPaused) {
+                        resetGame();
+                    }
+                    else {
+                        pauseGame();
+                    }
+                }
             }
         };
 
@@ -147,6 +156,7 @@
             left = 2;
             right = 3;
 
+            pauseKey = 80;
             keyLeft = 37;
             keyUp = 38;
             keyRight = 39;
@@ -158,7 +168,7 @@
             spawnSnake();
 
             apple = new Image();
-            apple.src = './apple-scaled.png';
+            apple.src = './sources/apple-scaled.png';
 
             appleWidth = 18;
             appleHeight = 20;
@@ -190,8 +200,8 @@
         function spawnApple() {
             if(!hasApple) {
                 hasApple = true;
-                appleCoordinateX = getRandomCoordinate(0, canvas.width-10);
-                appleCoordinateY = getRandomCoordinate(0, canvas.height-10);
+                appleCoordinateX = getRandomCoordinate(0, canvas.width - 20);
+                appleCoordinateY = getRandomCoordinate(0, canvas.height - 20);
             }
 
             context.clearRect(0, 0, canvas.width, canvas.height);

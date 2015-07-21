@@ -14,6 +14,7 @@ var i,
     left,
     right,
     keyPressed,
+    pauseKey,
     keyUp,
     keyDown,
     keyLeft,
@@ -113,6 +114,14 @@ window.onkeyup = function(e) {
             }
             break;
         }
+        case pauseKey: {
+            if(gameIsPaused) {
+                resetGame();
+            }
+            else {
+                pauseGame();
+            }
+        }
     }
 };
 
@@ -140,6 +149,7 @@ function initializeDefaultParameters() {
     left = 2;
     right = 3;
 
+    pauseKey = 80;
     keyLeft = 37;
     keyUp = 38;
     keyRight = 39;
@@ -183,8 +193,8 @@ function spawnSnake() {
 function spawnApple() {
     if(!hasApple) {
         hasApple = true;
-        appleCoordinateX = getRandomCoordinate(0, canvas.width-10);
-        appleCoordinateY = getRandomCoordinate(0, canvas.height-10);
+        appleCoordinateX = getRandomCoordinate(0, canvas.width - 20);
+        appleCoordinateY = getRandomCoordinate(0, canvas.height - 20);
     }
 
     context.clearRect(0, 0, canvas.width, canvas.height);
